@@ -4,7 +4,7 @@ export default function TeamCard({ name, role, image, rolePosition }) {
       <img
         src={image}
         alt={name}
-        className="w-full h-auto object-cover rounded-md shadow-md row-span-2"
+        className="w-full h-auto object-cover shadow-md row-span-2"
       />
 
 <p

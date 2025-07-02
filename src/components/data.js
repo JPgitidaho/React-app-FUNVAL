@@ -9,25 +9,25 @@ export const team = [
     name: "Saba Cabrera",
     role: "Art Director",
     image: "./assets/photo2.png",
-    rolePosition: "top-29 "
+    rolePosition: "top-28 "
   },
   {
     name: "Saba Frank",
     role: "Art Director",
     image: "./assets/photo3.png",
-    rolePosition: "top-29 "
+    rolePosition: "top-28 "
   },
   {
     name: "Skyla Lu",
     role: "UX Designer",
     image: "./assets/photo4.png",
-    rolePosition: "top-27 "
+    rolePosition: "top-26 "
   },
   {
     name: "Grift Richards",
     role: "Developer",
     image: "./assets/photo5.png",
-    rolePosition: "top-22 "
+    rolePosition: "top-21 "
   },
   {
     name: "Stan Jhon",
