@@ -1,22 +1,22 @@
-export default function TeamCard({ name, role, image }) {
+export default function TeamCard({ name, role, image, rolePosition }) {
   return (
-    <div className="relative">
-      
-      <p className="absolute top-40 right-[-30px]  text-xs md:text-xl uppercase text-gray-400 rotate-90 origin-top-right">
-        {role}
-      </p>
+    <div className="grid grid-cols-[1fr_auto] grid-rows-[auto_auto] items-center gap-x-2 relative">
+      <img
+        src={image}
+        alt={name}
+        className="w-full h-auto object-cover rounded-md shadow-md row-span-2"
+      />
 
-   
-      <div className="flex flex-col items-start">
-        <img
-          src={image}
-          alt={name}
-          className="w-full h-auto object-cover rounded-md shadow-md"
-        />
-        <h3 className="mt-2 font-bold text-white text-sm md:text-base">
-          {name}
-        </h3>
-      </div>
+<p
+  className={`text-md -right-1 text-bold uppercase text-gray-400 tracking-widest absolute rotate-90 origin-right ${rolePosition}`}
+>
+  {role}
+</p>
+
+
+      <h3 className="font-bold text-white text-sm md:text-base col-span-2 mt-2">
+        {name}
+      </h3>
     </div>
   );
 }
