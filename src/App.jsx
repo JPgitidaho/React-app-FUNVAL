@@ -3,7 +3,7 @@ import TeamGrid from "./components/TeamGrIds";
 
 function App() {
   return (
-    <main className="min-h-screen bg-white dark:bg-slate-900 dark:text-white text-black transition-colors duration-300">
+    <main className="min-h-screen bg-slate-900 text-white ">
       <header className="px-4 py-10 max-w-6xl mx-auto">
     
 
