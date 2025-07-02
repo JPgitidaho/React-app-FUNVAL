@@ -10,8 +10,8 @@ function App() {
             The creative crew
           </h1>
           <div className="flex flex-col items-center md:items-start text-center md:text-left">
-            <h2 className="uppercase text-2xl font-bold mb-2">Who we are</h2>
-            <p className="text-gray-300  text-2xl ">
+            <h2 className=" text-3xl font-bold mb-2">Who we are</h2>
+            <p className="text-gray-300  text-3xl font-bold">
               We are a team of creatively diverse, driven, innovative individuals working in various locations from the world.
             </p>
           </div>
